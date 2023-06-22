@@ -1,0 +1,23 @@
+# install jupyterthemes
+pip install jupyterthemes
+
+# upgrade to latest version
+pip install --upgrade jupyterthemes
+Après avoir installé jupyterthemes , vous pouvez lire la documentation en écrivant
+
+jt -h
+Il y a 9 thèmes différents fournis par jupyterthemes , ils sont chesterish, grade3, gruvboxd, gruvboxl, monokai, oceans16, onedork, solarizedd et solarizedl. Vous pouvez consulter la liste en écrivant ce code
+
+Vous pouvez obtenir la liste des thèmes disponibles avec:
+jt -l
+
+Pour modifier vos thèmes Jupyter Notebook, vous pouvez écrire jt -t name_themes
+
+jt -t chesterish
+
+Pour restaurer
+
+jt -r
+
+Lorsque vous définissez un thème, spécifiez également () dans la même commande pour conserver la barre d’outils,
+sans laquelle la barre d’outils n’est pas affichée.
